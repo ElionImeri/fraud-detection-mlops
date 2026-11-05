@@ -1,0 +1,18 @@
+# Environnement
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Données (trop lourdes, et elles ne vont jamais dans Git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Notebooks et outils
+.ipynb_checkpoints/
+mlruns/
+
+# Système
+.DS_Store
